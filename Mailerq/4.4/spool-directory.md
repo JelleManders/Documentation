@@ -20,7 +20,7 @@ queue to the "rabbitmq-inbox" setting, the email is immediately delivered to
 the recipient(s).
 
 Although using the spool directory is very convenient for sending out mails
-it is also very slow. This is caused byt the fact the every mail needs to
+it is also very slow. This is caused by the fact the every mail needs to
 be written to and read from disk. We therefore encourage you to use the
 other methods to send mails to MailerQ.
 
@@ -38,7 +38,7 @@ spool-extract:          true    (default: true)
 
 The "spool-directory" is the most important one. It contains the path to the
 directory that should be monitored. All files that you copy to this directory
-are immediately picked up, processed and removed. This happens in a blink of
+are immediately picked up, processed and removed. This happens in the blink of
 an eye. If you need a small delay before messages are picked up, you
 can use the "spool-delay" variable. Set this to a numeric value holding
 the number of seconds to wait before files are picked up.

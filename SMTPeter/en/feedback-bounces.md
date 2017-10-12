@@ -60,7 +60,7 @@ bounces and out-of-office replies that could not be recognized.
 The bounce feedback loop is sent over HTTP POST, and the following
 variables are submitted:
 
-| variables | Omschrijving                                                                      |
+| variables | Description                                                                   |
 |-----------|-----------------------------------------------------------------------------------|
 | id        | original message id to which the bounce is associated                             |
 | recipient | email address to which the original mail was sent                                 |

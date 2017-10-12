@@ -60,7 +60,7 @@ allows SMTPeter to log and report wrong email addresses.
 
 To intercept bounces SMTPeter changes the envelope address of your
 messages. The original envelope address, the one that you supplied, is
-removed and changed into a special bounce address. By doing this  
+removed and changed into a special bounce address. By doing this 
 bounces are not directly sent to your address, but to SMTPeter first, 
 before they are forwarded to your original envelope address.
 
@@ -88,7 +88,7 @@ bounces that are difficult to recognize for computers DSN's are
 standardized automatically generated notifications that can be processed 
 by mail servers. SMTPeter recognizes these type of bounces too and logs 
 the reported errors. Because SMTPeter already recognizes such messages, 
-you may instruct SMTPeter to not forward these DNS's and only pass on 
+you may instruct SMTPeter to not forward these DSN's and only pass on 
 the bounces that could not be recognized. 
 
 The SMTP protocol has a special DSN extension that allows just this. When
